@@ -25,7 +25,7 @@ export function Home(){
 
     React.useEffect(() => {
             const fetchData = async () => {
-            const response = await fetch(link);
+            const response = await fetch(link, {mode: 'no-cors'});
             const jsonData = await response.json();
             setData(jsonData);
         };
