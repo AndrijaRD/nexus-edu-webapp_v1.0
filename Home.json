@@ -1,0 +1,43 @@
+[
+    {
+        "SubjectName": "Anatomija",
+        "SubjectColor": "rgb(203, 48, 125)",
+        "SubjectIcon": "https://nexus-online-school-database.s3.eu-central-1.amazonaws.com/Images/SubjectIcons/anatomija.png"
+    },{
+        "SubjectName": "Biologija",
+        "SubjectColor": "rgb(243, 115, 62)",
+        "SubjectIcon": "https://nexus-online-school-database.s3.eu-central-1.amazonaws.com/Images/SubjectIcons/biologija.png"
+    },{
+        "SubjectName": "Engleski",
+        "SubjectColor": "rgb(25, 172, 83)",
+        "SubjectIcon": "https://nexus-online-school-database.s3.eu-central-1.amazonaws.com/Images/SubjectIcons/engleski.png"
+    },{
+        "SubjectName": "Fizika",
+        "SubjectColor": "rgb(24, 101, 242)",
+        "SubjectIcon": "https://nexus-online-school-database.s3.eu-central-1.amazonaws.com/Images/SubjectIcons/fizika.png"
+    },{
+        "SubjectName": "Geografija",
+        "SubjectColor": "rgb(196, 211, 173)",
+        "SubjectIcon": "https://nexus-online-school-database.s3.eu-central-1.amazonaws.com/Images/SubjectIcons/geografija.png"
+    },{
+        "SubjectName": "Hemija",
+        "SubjectColor": "rgb(252, 181, 0)",
+        "SubjectIcon": "https://nexus-online-school-database.s3.eu-central-1.amazonaws.com/Images/SubjectIcons/hemija.png"
+    },{
+        "SubjectName": "Latinski",
+        "SubjectColor": "rgb(242, 7, 70)",
+        "SubjectIcon": "https://nexus-online-school-database.s3.eu-central-1.amazonaws.com/Images/SubjectIcons/latinski.png"
+    },{
+        "SubjectName": "Matematika",
+        "SubjectColor": "rgb(118, 0, 188)",
+        "SubjectIcon": "https://nexus-online-school-database.s3.eu-central-1.amazonaws.com/Images/SubjectIcons/matematika.png"
+    },{
+        "SubjectName": "Nega",
+        "SubjectColor": "rgb(16, 230, 215)",
+        "SubjectIcon": "https://nexus-online-school-database.s3.eu-central-1.amazonaws.com/Images/SubjectIcons/nega.png"
+    },{
+        "SubjectName": "Srpski",
+        "SubjectColor": "rgb(152, 242, 7)",
+        "SubjectIcon": "https://nexus-online-school-database.s3.eu-central-1.amazonaws.com/Images/SubjectIcons/srpski.png"
+    }
+]
