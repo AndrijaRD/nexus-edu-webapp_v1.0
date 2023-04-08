@@ -8,10 +8,18 @@ function SubjectBubble({ image, color, title }){
     var imageStyle = {
         'backroundColor': color
     }
+
+    const [imagePath, setImagePath] = React.useState(null);
+
+    React.useEffect(() => {
+        import(`../../assets/SubjectIcons/${image}`)
+        .then((image) => setImagePath(image))
+        .catch((error) => console.log(error));
+    }, [image]);
     
     return (
         <div className="subjectBubble" id={title}>
-            <img src="../../assets/SubjectIcons/anatomija.png" alt="" style={imageStyle}/>
+            <img src={imagePath} alt="" style={imageStyle}/>
             <h1>{title}</h1>
         </div>
     );
