@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { useParams } from "react-router-dom";
 import { firstCapittal } from "../Global/Global";
 import './style.css'
@@ -73,7 +73,7 @@ const cards = [
 export function Lekcija(){
     const { predmetVar, lekcijaVar } = useParams();
     //document.title = firstCapittal(lekcijaVar.replace("-", " ").split(" ")[0]) + " " + firstCapittal(lekcijaVar.replace("-", " ").split(" ")[1]);
-    var appended = false
+    const isAppended = useRef(false)
     useEffect(() => {
         console.log("1. UseEffect")
         const fetchData = async () => {
@@ -87,7 +87,7 @@ export function Lekcija(){
             const jsonData = await response.json();
             document.title = jsonData.LectionName;
             console.log("2. Before If")
-            if (jsonData['LectionTextBoxes'] !== undefined && !appended) {
+            if (jsonData['LectionTextBoxes'] !== undefined && !isAppended.current) {
                 console.log("3. Inside If")
                 jsonData['LectionTextBoxes'].forEach((element) => {
                     var textbox = document.createElement('div');
@@ -100,15 +100,10 @@ export function Lekcija(){
                 document.body.appendChild(style);
                 appended = true
             }
-            else{
-                console.log("Failed")
-                console.log(jsonData['LectionTextBoxes'] !== undefined)
-                console.log(!appended)
-            }
         };
       
         fetchData();
-      }, [lekcijaVar, predmetVar, appended]);      
+      }, [lekcijaVar, predmetVar, isAppended]);      
 
     return(
         <div className="body">
