@@ -98,7 +98,7 @@ export function Lekcija(){
                 var style = document.createElement('style');
                 style.innerText = jsonData['LectionStyle'];
                 document.body.appendChild(style);
-                appended = true
+                isAppended.current = true
             }
         };
       
