@@ -27,3 +27,261 @@
     margin: 20px 0;
     padding: 10px;
 }
+
+
+/**********************************************************************/
+ .textbox{
+    width: 90%;
+    max-width: 900px;
+    color: black;
+    background: white;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    border: 1px solid white;
+    padding: 5px;
+    margin: 20px 0;
+}
+.blue {
+    color: blue;
+}
+.green {
+    color: rgb(0, 101, 0);
+}
+.red {
+    color: red;
+}
+.purple {
+    color: #9D00FF;
+}
+.pink {
+    color: #FF1178;
+}
+.cyan {
+    color: #66d1cc;
+}
+.lightgreen {
+    color: #7CFF01;
+}
+.orange {
+    color: #FF5F1F;
+}
+.electricpink {
+    color: #F67280;
+}
+.turkishrose {
+    color: #C06C84;
+}
+.metallicblue {
+    color: #335C7D;
+}
+.cyancornflowerblue {
+    color: #288BA8;
+}
+.crayola {
+    color: #746AB0;
+}
+
+
+/***************************************************
+.card {
+    position: relative;
+    margin: 0 auto;
+    width: 400px;
+    max-width: 90%;
+    height: 280px;
+    margin: 50px auto;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+    color: black;
+  }
+  
+  .card-inner {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.5s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .card-front,
+  .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  
+  .card-front {
+    background-color: #fff;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .card-back {
+    background-color: #f8f8f8;
+    transform: rotateY(180deg);
+  }
+  
+  .card-back p {
+    margin: 0;
+  }
+  
+  .card-inner.flipped {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-button {
+    margin: 0 auto;
+    margin-top: 20px;
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: #008cba;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    outline: none;
+    width: 100px;
+  }
+  
+  .next-button {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: #008cba;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    outline: none;
+    width: 100px;
+  }
+  
+  
+/**/
+
+.card {
+    width: 900px;
+    max-width: 90%;
+    height: 350px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    margin: 50px auto;
+  }
+  
+  .card-inner {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform 0.8s ease-in-out;
+    transform-style: preserve-3d;
+    cursor: pointer;
+  }
+  
+  .card .card-front,
+  .card .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  
+  .card .card-front {
+    background-color: #2ecc71;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    transform: rotateY(0deg);
+  }
+  
+  .card .card-back {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: #2ecc71;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    transform: rotateY(180deg);
+  }
+  
+  .card .card-back:before {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: #2ecc71;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    border-radius: 50%;
+    transform: translateZ(50px);
+  }
+  
+  .card .card-back:after {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: #2ecc71;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 50%;
+    transform: translateZ(50px);
+  }
+  
+  
+  .card.flipped .card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .next-button, .flip-button {
+    background-color: #2ecc71;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    transition: background-color 0.2s ease-in-out;
+    width: 40%;
+  }
+  .next-button{
+    position: absolute;
+    bottom: 20px;
+    left: 5%;
+  }
+  .flip-button{
+    position: absolute;
+    bottom: 20px;
+    left: 55%;
+  }
+  
+  .next-button:hover, .flip-button:hover {
+    background-color: #1abc9c;
+  }
+  
