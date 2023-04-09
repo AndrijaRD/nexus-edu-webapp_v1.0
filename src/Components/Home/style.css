@@ -7,8 +7,50 @@
     min-height: 100vh;
     color: white;
 }
-
-img{
-    width: 100px;
+.bubble-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-bottom: 60vh;
+}
+.subjectBubble {
+    min-width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px 0 0;
+    margin: 35px 0 35px 30px;
+    border: 1px solid gray;
+    background: white;
+    text-decoration: none;
+}
+.subjectBubble img {
+    height: 60px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 0 0 -10px;
     background-color: black;
+}
+.subjectBubble h1 {
+    margin: 0 10px;
+    font-size: 20px;
+    color: black;
+}
+
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;
+    background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: green;
+    border-radius: 10px;
 }

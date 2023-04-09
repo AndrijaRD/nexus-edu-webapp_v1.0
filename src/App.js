@@ -10,7 +10,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/predmet/:predmetVar' element={<Predmet />} />
-        <Route path='/predmet/:predmet/lekcija/:lekcija' element={<Lekcija />} />
+        <Route path='/predmet/:predmetVar/lekcija/:lekcijaVar' element={<Lekcija />} />
         <Route path='/test' element={<div><h1>Test</h1></div>} />
         <Route path='/login' element={<div><h1>Login</h1></div>} />
         <Route path='/settings' element={<div><h1>Settings</h1></div>} />

@@ -1,0 +1,40 @@
+[
+    {
+        "SubjectColor": "rgb(203, 48, 125)"
+    },{
+        "LectionName": "Epitelno Tkivo",
+        "LectionChapter": "Tkiva",
+        "LectionIcon": "https://nexus-online-school-database.s3.eu-central-1.amazonaws.com/Images/LectionIcons/Anatomija/tkivo.png",
+        "isLast": false
+    },{
+        "LectionName": "Potporno Tkivo",
+        "LectionChapter": "Tkiva",
+        "LectionIcon": "https://nexus-online-school-database.s3.eu-central-1.amazonaws.com/Images/LectionIcons/Anatomija/tkivo.png",
+        "isLast": false
+    },{
+        "LectionName": "Misicno Tkivo",
+        "LectionChapter": "Tkiva",
+        "LectionIcon": "https://nexus-online-school-database.s3.eu-central-1.amazonaws.com/Images/LectionIcons/Anatomija/tkivo.png",
+        "isLast": false
+    },{
+        "LectionName": "Nervno Tkivo",
+        "LectionChapter": "Tkiva",
+        "LectionIcon": "https://nexus-online-school-database.s3.eu-central-1.amazonaws.com/Images/LectionIcons/Anatomija/tkivo.png",
+        "isLast": true
+    },{
+        "LectionName": "Telesne Tecnosti",
+        "LectionChapter": "Krv",
+        "LectionIcon": "https://nexus-online-school-database.s3.eu-central-1.amazonaws.com/Images/LectionIcons/Anatomija/krv.png",
+        "isLast": false
+    },{
+        "LectionName": "Uloge Krvi",
+        "LectionChapter": "Krv",
+        "LectionIcon": "https://nexus-online-school-database.s3.eu-central-1.amazonaws.com/Images/LectionIcons/Anatomija/krv.png",
+        "isLast": false
+    },{
+        "LectionName": "Krvna Plazma",
+        "LectionChapter": "Krv",
+        "LectionIcon": "https://nexus-online-school-database.s3.eu-central-1.amazonaws.com/Images/LectionIcons/Anatomija/krv.png",
+        "isLast": false
+    }
+]
