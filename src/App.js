@@ -4,6 +4,7 @@ import { Home } from './Components/Home/Home';
 import { Predmet } from './Components/Predmet/Predmet';
 import { Lekcija } from './Components/Lekcija/Lekcija';
 import Login from './Components/Login/Login';
+import Admin from './Components/Admin/Admin';
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
         <Route path='/test' element={<div><h1>Test</h1></div>} />
         <Route path='/login' element={<Login />} />
         <Route path='/settings' element={<div><h1>Settings</h1></div>} />
-        <Route path='/admin' element={<div><h1>Admin</h1></div>} />
+        <Route path='/admin' element={<Admin />} />
         <Route path='*' element={<div><h1>404</h1></div>} />
       </Routes>
     </Router>

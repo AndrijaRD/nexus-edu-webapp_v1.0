@@ -9,8 +9,53 @@
     "LectionStyle": ".wrap { display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center; } ul.one { margin: 10px 0; margin-inline: auto; width: 90%; display: flex; flex-wrap: wrap; list-style: none; }  ul.one li { width: 30%; margin: 10px 5px; border-bottom: 1px solid red; }  ul.two { margin: 10px 0; margin-inline: auto; width: 90%; display: flex; flex-direction: column; list-style: none; }  ul.two li { width: 100%; margin: 10px 5px; -webkit-text-decoration: underline #66d1cc; text-decoration: underline #66d1cc; }  ul.two .arrow { width: 100%; display: flex; }  ul.two .arrow img { width: 32px; height: 32px; margin-left: 15px; }  ul.two .arrow .text { margin-top: 1%; margin-left: 15px; -webkit-text-decoration: underline #66d1cc; text-decoration: underline #66d1cc; } @media (orientation: portrait) {  .textbox .row { display: flex; flex-direction: column; align-items: center; width: 100%; margin: 10px 0; box-shadow: 0 0 6px 1px rgb(11, 33, 73); font-weight: 400; }  .textbox img { width: 100%; } } @media (orientation: landscape) {  .textbox .row { display: flex; flex-direction: column; align-items: center; width: 32%; margin: 10px 5px; box-shadow: 0 0 6px 1px rgb(11, 33, 73); font-weight: 400; }  .textbox img { width: 100%; } }",
     "Questions": [
         {
-            "question": "",
-            "answer": ""
+            "question": "Na koje dve kategorije se deli Epitelno Tkivo?",
+            "answer": "Na Pokrovno i Zlezdano Epitelno Tkivo."
+        },
+        {
+            "question": "Kako se deli Pokrovno Epitelno Tkivo?",
+            "answer": "Deli se na Jednoslojno i Dvoslojno Epitelno Tkivo"
+        },
+        {
+            "question": "Koje su vrste Jednoslojnog Epitelnog Tkiva?",
+            "answer": "Ljuspasti, Kockasi i Cilindricni."
+        },
+        {
+            "question": "Koje su vrste Viseslojnog Epitelnog Tkiva",
+            "answer": "Plocasto slojeviti, Kockasto slojeviti i Cilindricno slojeviti."
+        },
+        {
+            "question": "Koje vrste Zlezdanog Epitelnog Tkiva postoje?.",
+            "answer": "Zlezdano Tkivo sa Endogrinim Lucenjem i Zlezdano Tkivo sa Egzokrinim Lucenjem."
+        },
+        {
+            "question": "Navedi neke vrste Zlezdanog Epitelnog Tkiva sa Egzokrinim Lucenjem.",
+            "answer": "Znojne zlezde, Lojne zlezde, Suzne zlezde, Pljuvacne zlezde, Mlecne zlezde, Gusteraca..."
+        },
+        {
+            "question": "Navedi primere Zlezdanog Tkiva sa Endokrinim Lucenjem.",
+            "answer": "Hipofiza, Stitasta Zlezda, Parastitasta Zlezda, Nadbubrena Zlezda, Endokrini Pankreas i Gonade - Seminici i Jajnici"
+        },
+        {
+            "question": "Stitasta Zlezda na Latinskom?",
+            "answer": "Glandula Thyreoidea"
+        },
+        {
+            "question": "Parastitasta Zlezda na Latinskom?",
+            "answer": "Glandula Parathyreoidea"
+        },
+        {
+            "question": "Nadbubrezna Zlezda na Latinskom?",
+            "answer": "Glandula Suprarenalis"
+        },
+        {
+            "question": "Semenici na Latinskom?",
+            "answer": "Testisi"
+        },
+        {
+            "question": "Jajnici na Latinskom?",
+            "answer": "Ovarium"
         }
-    ]
+    ],
+    "File": "unavailable"
 }

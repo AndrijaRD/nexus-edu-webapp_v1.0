@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { useParams } from "react-router-dom";
 import { Navbar } from "../Navbar/Navbar";
 import './style.css';
@@ -6,22 +6,27 @@ import { CreateBubble, firstCapittal } from '../Global/Global';
 
 function Predmet() {
   const { predmetVar } = useParams();
-  document.title = firstCapittal(predmetVar);
-
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
+  const fechedRef = useRef(false);
+
+  document.title = firstCapittal(predmetVar);
 
   useEffect(() => {
     const fetchData = async () => {
       const response = await fetch("https://nexus-online-school-database.s3.eu-central-1.amazonaws.com/Data/Subjects/Anatomija.json");
       const jsonData = await response.json();
       setData(jsonData);
-      console.log(jsonData)
+      console.log("fetching")
       setLoading(false);
     };
 
-    fetchData();
-  }, []);
+    if(!fechedRef.current){
+      fechedRef.current = true;
+      fetchData();
+    }
+  }, [fechedRef]);
+
   var BC = ""
   var newLection = true;
   return (
@@ -32,7 +37,6 @@ function Predmet() {
       ) : (
         <div>
           {data.map((item, index) => {
-            console.log(data)
             if(index === 0){
               BC = item.SubjectColor
               return null;
